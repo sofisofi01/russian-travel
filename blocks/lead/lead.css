@@ -1,0 +1,10 @@
+.lead {
+    width: 100%;
+    margin: 48px auto 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        margin: 56px auto 0 auto;
+    }
+  }
