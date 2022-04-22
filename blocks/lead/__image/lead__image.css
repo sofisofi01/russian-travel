@@ -1,0 +1,12 @@
+.lead__image {
+  margin-left: 148px;
+  margin-right: 148px;
+  margin-top: 56px;
+  padding: 0;
+  background: url(../../../images/__image.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 984px;
+  height: 615px;
+
+}
