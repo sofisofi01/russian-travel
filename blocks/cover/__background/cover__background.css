@@ -1,0 +1,25 @@
+.cover__background {
+    z-index: 2;
+    margin: 0 auto;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    width: 100%;
+    max-width: 1184px;
+    aspect-ratio: 1184/740;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.cover__background:hover{
+    transition-property: opacity; 
+    transition-duration: 1s; 
+    transition-timing-function: ease-out; 
+    opacity: 0.3;
+}

@@ -1,0 +1,45 @@
+.intro__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  padding: 0;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+@media screen and (min-width: 1279px) {
+  .intro__text {
+    width: 54vw;
+    margin: 40px 0 0 148px;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1023px) {
+  .intro__text {
+    width: 67vw;
+    margin: 40px 0 0 48px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .intro__text {
+    width: 94vw;
+    margin: 40px auto 0 auto;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+  .intro__text {
+    width: 90vw;
+    margin: 40px auto 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__text {
+    width: 90vw;
+    margin: 40px auto 0 auto;
+
+  }
+}

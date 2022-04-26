@@ -1,0 +1,33 @@
+.place__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-decoration-line: underline;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.place__link:hover {
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  opacity: 0.5;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+  .place__link {
+    margin: 0 auto 0 auto;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__link {
+    margin: 0 auto 0 auto;
+    width: 90vw;
+  }
+}
