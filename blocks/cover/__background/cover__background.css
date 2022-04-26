@@ -18,8 +18,8 @@
 }
 
 .cover__background:hover{
-    transition-property: opacity; 
-    transition-duration: 1s; 
+    transition-property: opacity;
+    transition-duration: 1s;
     transition-timing-function: ease-out; 
     opacity: 0.3;
 }
