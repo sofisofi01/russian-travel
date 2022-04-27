@@ -2,6 +2,7 @@
   margin: 0 18px 0 0;
   padding: 0;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
@@ -15,3 +16,4 @@
   transition-timing-function: ease-out;
   opacity: 0.8;
 }
+
