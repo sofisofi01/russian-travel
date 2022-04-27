@@ -1,6 +1,5 @@
 .footer__links {
   list-style-type: none;
-
   margin: 0;
   padding: 0;
 }
@@ -31,7 +30,7 @@
   .footer__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  /* or justify-content: space-around; */
+    justify-content: space-between;  
 
   }
 }
@@ -40,6 +39,6 @@
   .footer__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  /* or justify-content: space-around; */
-  }
+    justify-content: space-between; 
+}
 }

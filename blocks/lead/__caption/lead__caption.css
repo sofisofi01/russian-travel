@@ -7,7 +7,7 @@
   letter-spacing: 1.5px;
   font-size: 10px;
   line-height: 14px;
-  margin-top: 8px;
+  margin: 8px auto 0 auto;
 }
 
 @media screen and (min-width: 1279px) {
@@ -15,7 +15,7 @@
     width: 77vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 92px;
+    max-width: 984px;
   }
 }
 
@@ -24,28 +24,24 @@
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 767px) {
   .lead__caption {
     margin-left: 24px;
-    margin-bottom: 88px;
   }
 }
 
 @media (max-width: 767px) and (min-width: 425px) {
   .lead__caption {
-    margin-left: 16px;
-    margin-bottom: 64px;
+    margin-left: 24px;
   }
 }
 
 @media (max-width: 425px) {
   .lead__caption {
     margin-left: 16px;
-    margin-bottom: 64px;
 
   }
 }

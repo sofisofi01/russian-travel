@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 1279px) {
   .lead__title {
-    width: 56vw;
+    max-width: 720px;
     font-size: 96px;
     line-height: 100px;
   }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .lead__title {
-    width: 70vw;
+    max-width: 720px;
     font-size: 96px;
     line-height: 100px;
   }
@@ -24,7 +24,7 @@
 
 @media (max-width: 1023px) and (min-width: 767px) {
   .lead__title {
-    width: 94vw;
+    max-width: 720px;
     font-size: 96px;
     line-height: 100px;
   }
@@ -32,7 +32,8 @@
 
 @media (max-width: 767px) and (min-width: 425px) {
   .lead__title {
-    width: 90vw;
+    width: 94vw;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
@@ -40,8 +41,7 @@
 
 @media (max-width: 425px) {
   .lead__title {
-    width: 90vw;
-    font-family: 'Inter';
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

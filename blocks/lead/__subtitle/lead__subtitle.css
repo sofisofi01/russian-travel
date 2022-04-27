@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 1279px) {
   .lead__subtitle {
-    width: 50vw;
+    max-width: 640px;
     font-size: 30px;
     line-height: 36px;
     margin: 32px auto 64px auto;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .lead__subtitle {
-    width: 62.5vw;
+    max-width: 640px;
     font-size: 30px;
     line-height: 36px;
     margin: 32px auto 56px auto;
@@ -25,7 +25,7 @@
 
 @media (max-width: 1023px) and (min-width: 767px) {
   .lead__subtitle {
-    width: 83vw;
+    max-width: 640px;
     font-size: 30px;
     line-height: 36px;
     margin: 32px auto 56px auto;
@@ -34,16 +34,17 @@
 
 @media (max-width: 767px) and (min-width: 425px) {
   .lead__subtitle {
-    width: 90vw;
+    max-width: 640px;
     font-size: 16px;
     line-height: 20px;
-    margin: 16px auto 56px auto;
+    margin: 16px auto 40px auto;
+    width: 83vw;
   }
 }
 
 @media (max-width: 425px) {
   .lead__subtitle {
-    width: 90vw;
+    max-width: 640px;
     font-size: 16px;
     line-height: 20px;
     margin: 16px auto 40px auto;

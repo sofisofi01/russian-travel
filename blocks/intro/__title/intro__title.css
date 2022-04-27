@@ -1,17 +1,25 @@
 .intro__title {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   text-align: left;
   padding: 0;
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1281px) {
   .intro__title {
-    width: 54vw;
     font-size: 54px;
     line-height: 58px;
-    margin: 0 0 0 148px;
+    max-width: 984px;
+    margin: 90px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1279px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    width: 54vw;
+    margin: 90px 0 0 148px;
   }
 }
 
@@ -19,8 +27,8 @@
   .intro__title {
     font-size: 54px;
     line-height: 58px;
-    width: 67vw;
-    margin: 0 0 0 48px;
+    max-width: 690px;
+    margin: 94px 0 0 48px;
   }
 }
 
@@ -28,17 +36,18 @@
   .intro__title {
     font-size: 54px;
     line-height: 58px;
-    width: 94vw;
-    margin: 0 auto;
+    max-width: 720px;
+    margin: 88px auto 0 auto;
   }
 }
 
 @media (max-width: 767px) and (min-width: 425px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-    width: 90vw;
-    margin: 0 auto;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 720px;
+    margin: 88px auto 0 auto;
+    width: 94vw;
   }
 }
 
@@ -46,8 +55,8 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    width: 90vw;
-    margin: 0 auto;
+    max-width: 288px;
+    margin: 64px auto 0 auto;
 
   }
 }

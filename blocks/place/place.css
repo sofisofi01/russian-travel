@@ -2,48 +2,63 @@
   display: grid;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 }
+
 
 @media screen and (min-width: 1279px) {
   .place {
     margin-bottom: 80px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 12vw 36vw;
+    grid-template-columns: 47% 49%;
+    grid-template-rows: auto auto;
     column-gap: 40px;
     row-gap: 48px;
-    width: 77%;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .place {
     margin-bottom: 80px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vw 43vw;
+    grid-template-columns: 47.4% 49.1%;
+    grid-template-rows: auto auto;
     column-gap: 32px;
     row-gap: 48px;
-    width: 90.63%;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 1023px) and (min-width: 767px) {
   .place {
     margin-bottom: 73px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 12.5vw 57.4vw;
+    grid-template-columns: 47.3% 48.8%;
+    grid-template-rows: auto auto;
     column-gap: 28px;
     row-gap: 48px;
-    width: 93.75%;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 767px) and (min-width: 425px) {
   .place {
-    margin-bottom: 50px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 11vw 14.4vw 100vw 170.3vw;
-    row-gap: 32px;
-    width: 100%;
+    margin-bottom: 73px;
+    grid-template-columns: 47.2% 49%;
+    grid-template-rows: auto auto;
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }
 
@@ -51,8 +66,12 @@
   .place {
     margin-bottom: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: 11vw 14.4vw 100vw 170.3vw;
+    grid-template-rows: auto auto auto auto;
     row-gap: 32px;
     width: 100%;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }

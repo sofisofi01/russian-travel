@@ -14,15 +14,7 @@
   transition-property: opacity;
   transition-duration: 1s;
   transition-timing-function: ease-out;
-  opacity: 0.5;
-  color: #FFFFFF;
-}
-
-@media (max-width: 767px) and (min-width: 425px) {
-  .place__link {
-    margin: 0 auto 0 auto;
-    width: 90vw;
-  }
+  opacity: 0.8;
 }
 
 @media (max-width: 425px) {

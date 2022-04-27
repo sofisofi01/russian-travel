@@ -1,14 +1,12 @@
 .cover__title {
   font-weight: 900;
   text-align: center;
-  z-index: 10;
-  position: absolute;
+  z-index: 2;
   max-width: 560px;
   padding: 0;
   margin: 0;
   align-self: center;
   justify-self: center;
-  text-decoration: none;
   color: #FFFFFF;
 }
 
@@ -16,7 +14,6 @@
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    top: 33%;
   }
 }
 
@@ -24,7 +21,6 @@
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    top: 30%;
   }
 }
 
@@ -32,22 +28,19 @@
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    top: 24%;
   }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) and (min-width: 426px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    top: 16.5%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    top: 16.5%;
   }
 }

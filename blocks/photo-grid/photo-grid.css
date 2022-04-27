@@ -9,9 +9,9 @@
   .photo-grid {
     margin-top: 92px;
     margin-bottom: 92px;
-    width: 92.5vw;
-    grid-template-columns: repeat(4, 22.2vw);
-    grid-template-rows: repeat(3, 16.6vw);
+    max-width: 1184px;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
     gap: 16px;
   }
 }
@@ -40,12 +40,12 @@
 
 @media (max-width: 767px) and (min-width: 425px) {
   .photo-grid {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    width: 90vw;
-    grid-template-columns: 90vw;
-    grid-template-rows: repeat(12, 67.5vw);
-    gap: 12px;
+    margin-top: 88px;
+    margin-bottom: 88px;
+    width: 94vw;
+    grid-template-columns: 46vw 46vw;
+    grid-template-rows: repeat(6, 34.4vw);
+    gap: 16px;
   }
 }
 
