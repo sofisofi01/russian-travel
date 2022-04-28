@@ -46,7 +46,7 @@
 
 @media (max-width: 425px) {
   .intro__list {
-    max-width: 288px;
+    min-width: 288px;
     margin: 34px auto 0 auto;
 
   }
