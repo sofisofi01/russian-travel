@@ -1,5 +1,4 @@
 .place__link {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   margin: 0;
@@ -17,7 +16,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .place__link {
     margin: 0 auto 0 auto;
     width: 90vw;

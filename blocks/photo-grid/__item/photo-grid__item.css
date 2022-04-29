@@ -3,13 +3,8 @@
   background-size: cover;
   background-position: center;
   margin: 0;
-}
-
-@media screen and (min-width: 1279px) {
-  .photo-grid__item {
-    width: 284px;
-    height: 213px;
-  }
+  width: 284px;
+  height: 213px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
@@ -26,16 +21,10 @@
   }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
+@media (max-width: 767px) {
   .photo-grid__item {
-    width: 46vw;
-    height: 34.4vw;
+    width: 90vw;
+    height: 67.5vw;
   }
 }
 
-@media (max-width: 425px) {
-  .photo-grid__item {
-    width: 90vw;
-    height: 67, 5vw;
-  }
-}

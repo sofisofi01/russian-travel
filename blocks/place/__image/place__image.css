@@ -37,18 +37,7 @@
   }
 }
 
-@media (max-width: 767px) and (min-width: 425px) {
-  .place__image {
-    grid-row-start: 2;
-    grid-row-end: 2;
-    width: 44.3vw;
-    height: 44.3vw;
-    max-width: 340px;
-    max-height: 340px;
-  }
-}
-
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .place__image {
     grid-row-start: 3;
     grid-row-end: 3;

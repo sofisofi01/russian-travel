@@ -4,48 +4,22 @@
   object-position: center;
   margin-bottom: 0;
   margin-top: 0;
-
-}
-
-@media screen and (min-width: 1279px) {
-  .lead__image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 77vw;
-    height: 48vw;
-    max-width: 984px;
-    max-height: 615px;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 77vw;
+  height: 48vw;
+  max-width: 984px;
+  max-height: 615px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .lead__image {
-    margin-left: auto;
-    margin-right: auto;
     width: 90vw;
     height: 56.3vw;
   }
 }
 
-@media (max-width: 1023px) and (min-width: 767px) {
-  .lead__image {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100vw;
-    height: 62.5vw;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 425px) {
-  .lead__image {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100vw;
-    height: 62.5vw;
-  }
-}
-
-@media (max-width: 425px) {
+@media (max-width: 1023px) {
   .lead__image {
     margin-left: 0;
     margin-right: 0;

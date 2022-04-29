@@ -1,34 +1,8 @@
 .header__logo {
   margin: 0;
   padding: 0;
-}
-
-@media screen and (min-width: 1279px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media screen and (max-width: 1279px) and (min-width: 1023px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 767px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 425px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
+  width: 176px;
+  height: 52px;
 }
 
 @media (max-width: 425px) {

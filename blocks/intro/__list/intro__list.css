@@ -6,13 +6,8 @@
   font-size: 12px;
   line-height: 18px;
   text-align: left;
-}
-
-@media screen and (min-width: 1281px) {
-  .intro__list {
-    max-width: 984px;
-    margin: 33px auto 0 auto;
-  }
+  max-width: 984px;
+  margin: 33px auto 0 auto;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1279px) {
@@ -32,7 +27,6 @@
 @media (max-width: 1023px) and (min-width: 767px) {
   .intro__list {
     max-width: 720px;
-    margin: 33px auto 0 auto;
   }
 }
 
@@ -40,14 +34,11 @@
   .intro__list {
     max-width: 720px;
     width: 94vw;
-    margin: 33px auto 0 auto;
   }
 }
 
 @media (max-width: 425px) {
   .intro__list {
     max-width: 288px;
-    margin: 34px auto 0 auto;
-
   }
 }

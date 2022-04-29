@@ -9,7 +9,7 @@
   align-self: center;
   width: 100%;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,32 +25,9 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover__background {
-    height: 740px;
+    min-height: 62.5vw;
   }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1023px) {
-  .cover__background {
-    height: 62.5vw;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 767px) {
-  .cover__background {
-    height: 62.5vw;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 425px) {
-  .cover__background {
-    height: 62.5vw;
-  }
-}
-
-@media (max-width: 425px) {
-  .cover__background {
-    height: 62.5vw;
-  }
-}
