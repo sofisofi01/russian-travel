@@ -25,12 +25,12 @@
 
 @media screen and (max-width: 1023px) and (min-width: 767px) {
   .lead__caption {
-    width: 94%
+    width: 94%;
   }
 }
 
 @media (max-width: 767px) {
   .lead__caption {
-    width: 90%
+    width: 90%;
   }
 }
