@@ -5,40 +5,12 @@
   padding: 0;
   font-size: 16px;
   line-height: 163%;
-  max-width: 984px;
-  margin: 40px auto 0 auto;
+  max-width: 690px;
+  margin: 40px 0 0 0;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1279px) {
-  .intro__text {
-    width: 54vw;
-    margin: 40px 0 0 148px;
-  }
-}
-
-@media screen and (max-width: 1279px) and (min-width: 1023px) {
-  .intro__text {
-    max-width: 690px;
-    margin: 40px 0 0 48px;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 767px) {
+@media (max-width: 1023px) {
   .intro__text {
     max-width: 720px;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 425px) {
-  .intro__text {
-    max-width: 720px;
-    width: 94vw;
-  }
-}
-
-@media (max-width: 425px) {
-  .intro__text {
-    max-width: 288px;
-
   }
 }

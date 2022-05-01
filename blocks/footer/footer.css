@@ -5,6 +5,7 @@
   margin: 92px auto 0 auto;
   flex-direction: row;
   width: 92.5%;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
