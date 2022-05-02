@@ -3,25 +3,24 @@
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 77%;
   max-width: 984px;
   padding: 0;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .intro {
-    width: 90%;
+    max-width: 90%;
   }
 }
 
 @media (max-width: 1023px) and (min-width: 767px) {
   .intro {
-    width: 94%;
+    max-width: 94%;
   }
 }
 
 @media (max-width: 767px) {
   .intro {
-    width: 90%;
+    max-width: 90%;
   }
 }
