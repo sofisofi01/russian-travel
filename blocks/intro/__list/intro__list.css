@@ -13,7 +13,6 @@
 @media (max-width: 767px) and (min-width: 425px) {
   .intro__list {
     max-width: 720px;
-    width: 94vw;
   }
 }
 
